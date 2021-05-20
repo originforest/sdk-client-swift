@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint bpfaas_client.podspec' to ensure this is a
+#  Be sure to run `pod spec lint maxbuild_client.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,18 +15,18 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "bpfaas_client"
+  spec.name         = "maxbuild_client"
   spec.version      = "0.0.1"
-  spec.summary      = "bpfaas client swift SDK."
+  spec.summary      = "MAXBUILD client swift SDK."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "bpfaas client swift SDK."
+  spec.description  = "MAXBUILD client swift SDK."
 
-  spec.homepage     = "https://github.com/bpfaas/sdk-client-swift.git"
+  spec.homepage     = "https://github.com/originforest/sdk-client-swift.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/bpfaas/sdk-client-swift.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/originforest/sdk-client-swift.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

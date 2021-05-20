@@ -1,3 +1,3 @@
-struct bpfaas_client {
+struct maxbuild_client {
     var text = "Hello, World!"
 }
